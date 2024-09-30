@@ -1,0 +1,100 @@
+
+.bigpart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 1px solid;
+    background-color: rgb(176, 202, 252);
+    border: none;
+}
+.firstpart{
+    border: 2px solid;
+    width: 500px;
+    height: 500px;
+    border-right: none;
+    background-color: whitesmoke;
+    border: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.secondpart{
+    border: 2px solid;
+    width: 500px;
+    height: 500px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+    background-color: rgb(6, 152, 189);
+    color: white;
+}
+.clear{
+    border: none;
+    background-color: whitesmoke;
+    margin-top: 10px;
+}
+.clear:hover{
+    cursor: pointer;
+}
+
+.things{
+    display: flex;
+    gap: 140px;
+}
+.beggin{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 2%;
+
+}
+
+.amount{
+    margin-top: 25%;
+    text-align: center;
+}
+.num01{
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.format{
+    margin-top: 25%;
+    display: flex;
+    gap: 25px;
+    text-align: center;
+    margin-left: 5%;
+}
+.num02{
+    height: 30px;
+    border-radius: 10px;
+}
+
+label{
+    border: 1px solid;
+    background-color: rgb(176, 202, 252);
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.575);
+}
+.final{
+    text-align: center;
+    font-size: 50px;
+}
+.transparente{
+    color: hsla(0, 0%, 0%, 0.603);
+}
+
+.calc{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 25px;
+    height: 45px;    
+    background-color: hsl(60, 99%, 42%);
+    width: 250px;
+    border: none;
+}
+.calc:hover{
+    cursor: pointer;
+    background-color: hsl(60, 99%, 45%);
+}

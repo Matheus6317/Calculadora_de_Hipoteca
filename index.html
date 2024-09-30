@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Hipoteca</title>
+</head>
+
+<body>
+    <section>
+        <div class="bigpart">
+            <div class="firstpart">
+
+
+                <div class="things">
+                    <div class="beggin">
+                        <b>
+                            Calculadora de Hipoteca
+                        </b>
+                    </div>
+                    <div>
+                        <button class="clear" onclick="clear()">Limpar Tudo</button>
+                    </div>
+                </div>
+
+
+                <div class="amount">
+                    <div class="transparente">Montante da Hipoteca</div>
+                    <input type="number" class="num01" min="0" id="mount" placeholder="Reais">
+                    <label>R$</label>
+                </div>
+                <div class="format">
+                    <div>
+                        <div class="transparente">Prazo da Hipoteca</div>
+                        <label>Anos</label>
+                        <input type="number" class="num02" id="year" min="0" placeholder="Tempo">
+                    </div>
+                    <div>
+                        <div class="transparente">Taxa de Juros</div>
+                        <label>%</label>
+                        <input type="number" class="num02" id="rate" min="0" placeholder="Juros">
+                    </div>
+                </div>
+
+
+                <div class="final">
+                    <input type="button" value="💰Calcular Reembolso" class="calc" onclick="calculate()">
+                </div>
+            </div>
+            <div class="secondpart">
+                <img alt="image" src="calculadora01.png">
+                <p id="resolution">Complete a formulário e clique em "Calcular Reembolso" para ver o quanto de reembolso você vai ter.</p>
+            </div>
+
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
